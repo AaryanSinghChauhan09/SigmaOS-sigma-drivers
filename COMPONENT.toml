@@ -3,7 +3,7 @@ name = "SigmaOS-sigma-drivers"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "sigma-drivers component"
+description = "SigmaOS sigma-drivers - modular Rust crate for the SigmaOS system"
 upstream = []
 
 [contract]
