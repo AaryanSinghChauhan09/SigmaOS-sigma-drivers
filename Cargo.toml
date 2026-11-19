@@ -1,10 +1,15 @@
 [package]
-name = "sigma-drivers"
-version = "0.2.0"
+name = "SigmaOS-sigma-drivers"
+version = "0.1.0"
 edition = "2021"
-authors = ["Aaryan Singh Chauhan <aaryan.singh.chauhan.09@gmail.com>"]
-description = "SigmaOS Hardware Drivers - inspired by Linux Mint mintdrivers and Omarchy Linux"
-license = "GPL-3.0-or-later"
+license = "Apache-2.0"
+description = "SigmaOS sigma_drivers component"
+
+[lib]
+name = "sigma_drivers"
+path = "src/lib.rs"
 
 [dependencies]
-sigma-system = { path = "../sigma-system" }
+thiserror = "1"
+
+[dev-dependencies]
